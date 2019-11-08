@@ -1,0 +1,36 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header .nav-menu {
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav-menu .left {
+  display: flex;
+  justify-content: left;
+}
+
+header .nav-menu .right {
+  display: flex;
+  justify-content: right;
+}
