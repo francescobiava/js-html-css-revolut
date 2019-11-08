@@ -25,15 +25,18 @@ header .nav-menu {
   justify-content: space-between;
 }
 
-header .nav-menu a {
+header .nav-menu li,
+header .nav-menu li a {
   color: rgba(0, 0, 0, 0.5);
 }
 
+header .nav-menu li:hover,
 header .nav-menu a:hover {
   color: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
-header .nav-menu a.active {
+header .nav-menu .active {
   color: rgba(0, 0, 0, 1);
 }
 
@@ -45,9 +48,6 @@ header .nav-menu .left {
 
 header .nav-menu .left li {
   margin-right: 20px;
-}
-
-header .nav-menu .left a {
   text-transform: uppercase;
 }
 
