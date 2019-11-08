@@ -25,12 +25,58 @@ header .nav-menu {
   justify-content: space-between;
 }
 
+header .nav-menu a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+header .nav-menu a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+header .nav-menu a.active {
+  color: rgba(0, 0, 0, 1);
+}
+
 header .nav-menu .left {
   display: flex;
   justify-content: left;
+  align-items: center;
+}
+
+header .nav-menu .left li {
+  margin-right: 20px;
+}
+
+header .nav-menu .left a {
+  text-transform: uppercase;
+}
+
+header .nav-menu .left img {
+  width: 100px;
 }
 
 header .nav-menu .right {
   display: flex;
   justify-content: right;
+  align-items: center;
+}
+
+header .nav-menu .right li {
+  margin-left: 20px;
+}
+
+header .nav-menu .right .fas {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+header .nav-menu .right .get-app {
+  background-color: #eb008d;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+}
+
+header .nav-menu .right .get-app:hover {
+  background-color: #d2007e;
 }
