@@ -20,7 +20,7 @@ a {
 
 /* header */
 header .nav-menu {
-  margin: 50px;
+  margin: 40px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -79,4 +79,25 @@ header .nav-menu .right .get-app {
 
 header .nav-menu .right .get-app:hover {
   background-color: #d2007e;
+}
+
+header .nav-menu .right .low-show i {
+  font-size: 20px;
+}
+
+.low-show {
+  display: none;
+}
+
+/* media query header */
+@media screen and (max-width: 1049px) {
+  
+  .low-hide {
+    display: none;
+  }
+
+  .low-show {
+    display: inline-block;
+  }
+
 }
