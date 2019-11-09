@@ -97,6 +97,11 @@ header .nav-menu .dropdown-content {
   top: 25px;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
+}
+
+header .nav-menu .dropdown-content.open {
+  display: block;
 }
 
 header .nav-menu .dropdown-content li {
