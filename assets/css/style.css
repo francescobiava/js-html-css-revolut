@@ -66,7 +66,7 @@ header .nav-menu .right > li {
   position: relative;
 }
 
-header .nav-menu .right .fas {
+header .nav-menu .right .arrow {
   font-size: 10px;
   margin-left: 5px;
 }
@@ -82,7 +82,7 @@ header .nav-menu .right .get-app:hover {
   background-color: #d2007e;
 }
 
-header .nav-menu .right .low-show i {
+header .nav-menu .right .low-show .fa-bars {
   font-size: 20px;
 }
 
@@ -90,7 +90,7 @@ header .nav-menu .right .low-show i {
   display: none;
 }
 
-header .nav-menu .dropdown-content {
+header .nav-menu .right > .dropdown .dropdown-content {
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
@@ -106,6 +106,33 @@ header .nav-menu .dropdown-content.open {
 
 header .nav-menu .dropdown-content li {
   margin: 25px;
+}
+
+#hamburger > ul {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+  display: none;
+}
+
+#hamburger li {
+  margin: 40px;
+}
+
+header .nav-menu #hamburger .dropdown-content {
+  background-color: #fff;
+  display: none;
+}
+
+header .nav-menu #hamburger .dropdown-content.open {
+  display: block;
+}
+
+#hamburger ul.open {
+  display: block;
 }
 
 /* media query header */
