@@ -122,6 +122,10 @@ header .nav-menu .dropdown-content li {
   margin: 40px;
 }
 
+#hamburger #last-hamburger {
+  text-align: center;
+}
+
 header .nav-menu #hamburger .dropdown-content {
   background-color: #fff;
   display: none;
