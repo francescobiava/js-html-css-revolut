@@ -82,10 +82,6 @@ header .nav-menu .right .get-app:hover {
   background-color: #d2007e;
 }
 
-header .nav-menu .right .low-show .fa-bars {
-  font-size: 20px;
-}
-
 .low-show {
   display: none;
 }
@@ -114,6 +110,10 @@ header .nav-menu .right > .dropdown .dropdown-content.open {
 
 header .nav-menu .dropdown-content li {
   margin: 40px;
+}
+
+#hamburger > i.fas {
+  font-size: 20px;
 }
 
 #hamburger > ul {
