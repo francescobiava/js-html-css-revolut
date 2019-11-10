@@ -100,12 +100,20 @@ header .nav-menu .right > .dropdown .dropdown-content {
   display: none;
 }
 
+header .nav-menu .right > .dropdown:nth-child(3) .dropdown-content {
+  width: 300px;
+}
+
+header .nav-menu .right > .dropdown:nth-child(5) .dropdown-content {
+  width: 200px;
+}
+
 header .nav-menu .right > .dropdown .dropdown-content.open {
   display: block;
 }
 
 header .nav-menu .dropdown-content li {
-  margin: 25px;
+  margin: 40px;
 }
 
 #hamburger > ul {
