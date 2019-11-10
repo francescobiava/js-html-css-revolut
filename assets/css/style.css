@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* header */
 header .nav-menu {
   margin: 40px 50px;
@@ -158,4 +164,57 @@ header .nav-menu #hamburger .dropdown-content.open {
     display: inline-block;
   }
 
+}
+
+/* start section */
+#start {
+  margin: 80px;
+}
+
+#start .left {
+  width: 50%;
+  float: left;
+  padding-right: 12%;
+}
+
+#start .right {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+#start h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+}
+
+#start p {
+  font-weight: 100;
+  line-height: 1.5em;
+  margin: 20px 0 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#start input[type="tel"] {
+  width: 200px;
+  height: 40px;
+  font-size: 1em;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#start input[type="submit"] {
+  margin-left: 30px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #eb008d;
+  border: 0;
+  padding: 14px 30px;
+  border-radius: 25px;
+}
+
+#start .screen {
+  width: 35%;
+  position: absolute;
+  left: 35%;
 }
