@@ -100,7 +100,7 @@ header .nav-menu .right > .dropdown .dropdown-content {
   display: none;
 }
 
-header .nav-menu .dropdown-content.open {
+header .nav-menu .right > .dropdown .dropdown-content.open {
   display: block;
 }
 
